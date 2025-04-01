@@ -1,0 +1,21 @@
+Implementations of two classic Feature Inference Attacks papers for CIFAR-100.
+
+Deep Leakage from Gradients (`dlg.py`):
+```txt
+@inproceedings{zhu19deep,
+  title={Deep Leakage from Gradients},
+  author={Zhu, Ligeng and Liu, Zhijian and Han, Song},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2019}
+}
+```
+
+Improved Deep Leakage from Gradients (`idlg.py`):
+```txt
+@article{zhao2020idlg,
+  title={idlg: Improved deep leakage from gradients},
+  author={Zhao, Bo and Mopuri, Konda Reddy and Bilen, Hakan},
+  journal={arXiv preprint arXiv:2001.02610},
+  year={2020}
+}
+```
