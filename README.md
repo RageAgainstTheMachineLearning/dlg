@@ -1,6 +1,19 @@
-Implementations of two classic Feature Inference Attacks papers for CIFAR-100.
+# DLG: Feature Inference Attacks for CIFAR-100. 
 
-Deep Leakage from Gradients (`dlg.py`):
+## How to run?
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python ./dlg.py --help
+```
+
+## Copyright Notice
+
+This work is an implementation of the two papers:
+
+1. Deep Leakage from Gradients:
 ```txt
 @inproceedings{zhu19deep,
   title={Deep Leakage from Gradients},
@@ -10,7 +23,7 @@ Deep Leakage from Gradients (`dlg.py`):
 }
 ```
 
-Improved Deep Leakage from Gradients (`idlg.py`):
+2. Improved Deep Leakage from Gradients: 
 ```txt
 @article{zhao2020idlg,
   title={idlg: Improved deep leakage from gradients},
